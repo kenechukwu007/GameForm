@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- author: Ohia William 000791775 -->
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+		<title> Form Register Game </title>
+		<link rel="stylesheet" href="game.css">
+		<script src="javaS.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<div id="container" class="container">
+			
+			<div id = "form">
+				<h1 id="message" class="heading">Register For The Game Here! </h1>
+				<form id = "RegiForm">
+					<label for="username"> Player Name: </label>
+					<input type="text" id = "username" placeholder="Please enter your name in text box" required autofocus>
+					
+					<label for="age"> Player Age: </label>
+					<input type="number" id="age" min="5" value="5" required>
+					
+					<label for="favColor"> Choose your Favorite Color: </label>
+					<input type = "color"  id="favColor">
+					
+					<br>
+					<button type="submit"> SUBMIT </button>
+			
+				</form>
+			</div>
+			
+		</div>
+		
+		<div id= "major" class = "major">
+		
+			<h2 id = "bc"></h2>
+			<br>
+			
+			<button class="help" id = "help"></button>
+			<div class = "helpContainer" id="helpContainer">
+				<p id = "instructions"></p>
+			</div>
+			<br>
+		
+			<button class="choices" id="rock"></button>
+			<button class="choices" id="paper"></button>
+			<button class="choices" id="scissors"></button>
+			<br>
+				
+				
+			<div class="scores" id="scores">
+
+
+                <div class = "comp">
+					<h3 id = "comp_bc"></h3>
+					<p id = "comp_choice"></p>
+					<h3 id = "comp_Scr"></h3>
+					<p id = "comp_score"></p>
+				</div>
+				
+				<div class = "user">
+					<h3 id = "user_bc"></h3>
+					<p id = "user_choice"></p>
+					<h3 id = "user_scr"></h3>
+					<p id = "user_score"></p>
+				</div>
+			
+				
+					
+				<div class = "result">	
+					<h3 id = "result_bc">Results:</h3>
+					<p id = "results"></p>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+
+</html>

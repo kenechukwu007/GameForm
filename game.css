@@ -1,0 +1,52 @@
+.container {
+    max-width: 780px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    font-size: 1em;
+	
+}
+
+.major {
+	
+	display: none;
+	max-width: 1000px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    font-size: 1em;
+	
+}
+
+
+
+.scores{
+	display: grid;
+	grid-column-gap: 50px;
+	grid-row-gap: 50px;
+	grid-template-columns: auto auto auto;
+}
+
+
+
+
+input[type=text],
+input[type=number],
+input[type=submit] {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.2em;
+    color: black;
+}
+
+input[type=submit] {
+    color: black;
+}
